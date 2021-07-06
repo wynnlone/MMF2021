@@ -8,3 +8,6 @@ RM Lab
 #VAR:
 # is the template for Vector Autoregression analysis for hypothetical factor regression model
 
+#Risk Analysis - VaR - Draft
+# is the draft template for historical VaR and Stress VaR
+# will need to be modified and polished once the data files and allocation functions are done.
