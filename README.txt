@@ -26,6 +26,10 @@ RM Lab
 ## Economic data:
 
 
+# Optimize
+# This is the process of taking processed data and use investment strategy to optimize the portfolio and achieve weight of each asset.
+# We are going to use risk parity and Mean-variance optimization.
+
 # Untitled:
 # is the template draft for calibration, asset allocation, rebalancing, fee calculation, performance time series. 
 # will need to be modified and polished once the data files and allocation functions are done.
