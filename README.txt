@@ -2,25 +2,68 @@
 RM Lab
 
 # Data:
-
 ## Market price data: 
 ## yahoofinance:
 
+#USD 
+
+1. Equity & Credit
 ### SPY: SPDR S&P 500 Trust ETF
 ### is one of the most popular funds that aims to track the Standard & Poor's 500 Index.
 ### this eft represents the large- and mid-cap U.S. stocks.
 
-### XXX: XXX ETF
-### is XXX that aims to XXX.
-### this eft represents XXX.
+### QQQ: Invesco QQQ Trust ETF
+### is an exchange-traded fund that tracks the Nasdaq-100 Index™.
+### this eft represents the 100 largest non-financial companies listed on the Nasdaq based on market cap..
 
-### XXX: XXX ETF
-### is XXX that aims to XXX.
-### this eft represents XXX.
+### VWO: Vanguard FTSE Emerging Markets Index Fund ETF
+### tracks the return of the FTSE Emerging Markets All Cap China A Inclusion Index.
+### this eft represents stocks of companies located in emerging markets around the world, such as China, Brazil, Taiwan, and South Africa.
 
-### XXX: XXX ETF
-### is XXX that aims to XXX.
-### this eft represents XXX.
+### EWC: iShares MSCI Canada ETF
+### tracks the investment results of an index composed of Canadian equities.
+### this eft represents large and mid-sized companies in Canada.
+
+#2. Governmet Bond
+### SHY: iShares 1-3 Year Treasury Bond ETF
+### tracks the investment results of an index composed of U.S. Treasury bonds with remaining maturities between one and three years.
+### this eft represents short-term U.S. Treasury bonds.
+
+### IEF: iShares 7-10 Year Treasury Bond ETF
+### tracks the investment results of an index composed of U.S. Treasury bonds with remaining maturities between seven and ten years.
+### this eft represents intermediate-term U.S. Treasury bonds.
+
+#3. Inflation Bond
+### TIP: iShares TIPS Bond ETF
+### tracks the investment results of an index composed of inflation-protected U.S. Treasury bonds.
+### this eft represents government bonds whose face value rises with inflation.
+
+#4. Real Estate / Commodity
+### IVR: iShares U.S. Real Estate ETF
+### track the investment results of an index composed of U.S. equities in the real estate sector.
+### this eft represents U.S. real estate companies and REITs, which invest in real estate directly and trade like stocks.
+
+#CAD 
+
+1. Equity & Credit
+### XBB.TO: Shares Core Canadian Universe Bond Index ETF
+### tracks the performance of the FTSE Canada Universe Bond Index™, net of expenses.
+### this eft represents the Canadian investment grade bond market.
+
+#2. Governmet Bond
+### XGB.TO: iShares Canadian Government Bond Index ETF
+### tracks the performance of the FTSE Canada All Government Bond Index™, net of expenses.
+### this eft represents Canadian investment grade government bonds with maturities of at least 1 year.
+
+#3. Inflation Bond
+### XRB.TO: iShares Canadian Real Return Bond Index ETF
+### tracks the performance of the FTSE Canada Real Return Bond Index™, net of expenses.
+### this eft represents Canadian federal and provincial real return bonds.
+
+#4. Real Estate / Commodity
+### XRE.TO: iShares S&P/TSX Capped REIT Index ETF
+### tracks the performance of the S&P/TSX Capped REIT Index, net of expenses..
+### this eft represents different types of Canadian Real Estate Income Trusts (REITs) in a single fund, such as the retail, residential, office and industrial.
 
 
 ## Economic data:
