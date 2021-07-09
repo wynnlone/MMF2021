@@ -50,6 +50,10 @@ RM Lab
 ### tracks the performance of the FTSE Canada Universe Bond Index™, net of expenses.
 ### this eft represents the Canadian investment grade bond market.
 
+### XIU.TO：iShares S&P/TSX 60 Index ETF
+### tracks the performance of the S&P/TSX 60 Index, net of expenses.
+### this etf represents large, established Canadian companies.
+
 #2. Governmet Bond
 ### XGB.TO: iShares Canadian Government Bond Index ETF
 ### tracks the performance of the FTSE Canada All Government Bond Index™, net of expenses.
