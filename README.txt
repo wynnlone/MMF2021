@@ -96,6 +96,25 @@ ref: https://en.wikipedia.org/wiki/List_of_Canadian_exchange-traded_funds#ETF_Ta
 
 ## Economic data:
 
+### CANADA interest rate
+
+### CANADA CPI
+
+### CANADA GDP
+
+### CANADA Output gap
+
+### U.S. Fed funds
+
+### U.S. CPI
+
+### U.S. GDP
+
+### U.S. output gap
+
+### U.S. unemployment
+
+
 
 # Optimize
 # This is the process of taking processed data and use investment strategy to optimize the portfolio and achieve weight of each asset.
