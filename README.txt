@@ -126,8 +126,9 @@ ref: https://en.wikipedia.org/wiki/List_of_Canadian_exchange-traded_funds#ETF_Ta
 # This is the process of taking processed data and use investment strategy to optimize the portfolio and achieve weight of each asset.
 # We are going to use risk parity and Mean-variance optimization.
 
-# Untitled:
-# is the template draft for calibration, asset allocation, rebalancing, fee calculation, performance time series. 
+# Main:
+# is the main file for training, validation and testing.
+# Process include calibration, asset allocation, rebalancing, fee calculation, performance time series, benchmark comparesion. 
 # will need to be modified and polished once the data files and allocation functions are done.
 
 #VAR:
