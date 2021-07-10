@@ -2,18 +2,25 @@
 RM Lab
 
 # Data:
-## Market price data: 
+## Market price data:
+
+## Benchmark
+## Barclay Fund of Funds Index
+## Since they are so varied, funds of funds can be hard to track as a group and to compare. However, an index does exist. The Barclay Fund of Funds Index, sponsored by Barclay-Hedge, a provider of data on alternative investments, is a measure of the average return of all FOFs that report into the company database; it includes some 500 to 650 funds. As of March 2019, 583 funds had an averaged return of 3.95% year-to-date. 
+
+
 ## yahoofinance:
 
 #USD 
 
 1. Equity & Credit
+
 ### SPY: SPDR S&P 500 Trust ETF
 ### is one of the most popular funds that aims to track the Standard & Poor's 500 Index.
 ### this eft represents the large- and mid-cap U.S. stocks.
 
 ### QQQ: Invesco QQQ Trust ETF
-### is an exchange-traded fund that tracks the Nasdaq-100 Index™.
+### is an exchange-traded fund that tracks the Nasdaq-100 Index.
 ### this eft represents the 100 largest non-financial companies listed on the Nasdaq based on market cap..
 
 ### VWO: Vanguard FTSE Emerging Markets Index Fund ETF
@@ -46,7 +53,7 @@ RM Lab
 ### this eft represents government bonds whose face value rises with inflation.
 
 #4. Real Estate / Commodity
-### IVR: iShares U.S. Real Estate ETF
+### IYR: iShares U.S. Real Estate ETF
 ### track the investment results of an index composed of U.S. equities in the real estate sector.
 ### this eft represents U.S. real estate companies and REITs, which invest in real estate directly and trade like stocks.
 
@@ -57,13 +64,19 @@ RM Lab
 ref: https://en.wikipedia.org/wiki/List_of_Canadian_exchange-traded_funds#ETF_Table
 
 1. Equity & Credit
-### XBB.TO: Shares Core Canadian Universe Bond Index ETF
-### tracks the performance of the FTSE Canada Universe Bond Index™, net of expenses.
-### this eft represents the Canadian investment grade bond market.
+
+### XSP.TO: Shares Core SP 500 Index
 
 ### XIU.TO：iShares S&P/TSX 60 Index ETF
 ### tracks the performance of the S&P/TSX 60 Index, net of expenses.
 ### this etf represents large, established Canadian companies.
+
+### XIN.TO: iShares MSCI EAFE Index 
+### track the investment results of an index composed of large- and mid-capitalization developed market equities, excluding the U.S. and Canada. 
+
+### XBB.TO: Shares Core Canadian Universe Bond Index ETF
+### tracks the performance of the FTSE Canada Universe Bond Index, net of expenses.
+### this eft represents the Canadian investment grade bond market.
 
 #2. Governmet Bond
 ### XGB.TO: iShares Canadian Government Bond Index ETF
