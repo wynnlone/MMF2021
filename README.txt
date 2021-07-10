@@ -105,25 +105,22 @@ ref: https://en.wikipedia.org/wiki/List_of_Canadian_exchange-traded_funds#ETF_Ta
 
 ## Economic data:
 
-### CANADA interest rate
-
+### CANADA Interest rate
 ### CANADA CPI
-
 ### CANADA GDP
-
-### CANADA Output gap
-
 ### U.S. Fed funds
-
 ### U.S. CPI
-
 ### U.S. GDP
+### U.S. Unemployment rate
+### FX CAD/USD
 
-### U.S. output gap
+## Factor data:
 
-### U.S. unemployment
-
-
+## Rm-Rf: the difference between the return on the value-weight (VW) market portfolio and risk-free rate.
+## SMB: the return on a diversified portfolio of small stocks minus the return on a diversified portfolio of big stocks.
+## HML: the difference between the returns on diversified portfolios of high and low B/M stocks.
+## RMW: the difference between the returns on diversified portfolios of stocks with robust and weak profitability
+## CMA: the difference between the returns on diversified portfolios of low and high investment stocks (conservative and aggressive).
 
 # Optimize
 # This is the process of taking processed data and use investment strategy to optimize the portfolio and achieve weight of each asset.
