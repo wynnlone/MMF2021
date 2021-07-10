@@ -54,6 +54,7 @@ RM Lab
 ###
 
 #CAD 
+ref: https://en.wikipedia.org/wiki/List_of_Canadian_exchange-traded_funds#ETF_Table
 
 1. Equity & Credit
 ### XBB.TO: Shares Core Canadian Universe Bond Index ETF
