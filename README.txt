@@ -32,11 +32,16 @@ RM Lab
 ### this eft represents large and mid-sized companies in Canada.
 
 ### EFA: iShares MSCI EAFE ETF
-### tracks the investment results of an index composed of large- and mid-capitalization developed market equities, excluding the U.S. and Canada. 
+### track the investment results of an index composed of large- and mid-capitalization developed market equities, excluding the U.S. and Canada.
+### this etf represents a broad range of companies in Europe, Australia, Asia, and the Far East.
 
 ### VGK: Vanguard FTSE Europe Index Fund ETF Shares
+### tracks the performance of the FTSE Developed Europe All Cap Index, which measures the investment return of stocks issued by companies located in the major markets of Europe.
+### this etf represents stocks of companies located in Austria, Belgium, Denmark, Finland, France, Germany, Greece, Ireland, Italy,  the Netherlands, Norway, Portugal, Spain, Sweden, Switzerland, and the United Kingdom.
 
 ### IOO: iShares Global 100 ETF 
+### tracks the investment results of an index composed of 100 large-capitalization global equities.
+### this etf represents a broad range of large international companies in developed and emerging markets.
 
 #2. Governmet Bond
 ### SHY: iShares 1-3 Year Treasury Bond ETF
@@ -54,25 +59,29 @@ RM Lab
 
 #4. Real Estate / Commodity
 ### IYR: iShares U.S. Real Estate ETF
-### track the investment results of an index composed of U.S. equities in the real estate sector.
+### tracks the investment results of an index composed of U.S. equities in the real estate sector.
 ### this eft represents U.S. real estate companies and REITs, which invest in real estate directly and trade like stocks.
 
 ### DBC: Invesco DB Commodity Index Tracking Fund 
-###
+### tracks changes, whether positive or negative, in the level of the DBIQ Optimum Yield Diversified Commodity Index Excess Return™ (DBIQ Opt Yield Diversified Comm Index ER or Index) plus the interest income from the Fund's holdings of primarily US Treasury securities and money market income less the Fund's expenses.
+### this etf represents 14 of the most heavily traded and important physical commodities in the world.
 
 #CAD 
 ref: https://en.wikipedia.org/wiki/List_of_Canadian_exchange-traded_funds#ETF_Table
 
 1. Equity & Credit
 
-### XSP.TO: Shares Core SP 500 Index
+### XSP.TO: iShares Core SP 500 Index
+### tracks the investment results of an index composed of large-capitalization U.S. equities.
+### this etf represents large, established U.S. companies.
 
 ### XIU.TO：iShares S&P/TSX 60 Index ETF
 ### tracks the performance of the S&P/TSX 60 Index, net of expenses.
 ### this etf represents large, established Canadian companies.
 
 ### XIN.TO: iShares MSCI EAFE Index 
-### track the investment results of an index composed of large- and mid-capitalization developed market equities, excluding the U.S. and Canada. 
+### track the investment results of an index composed of large- and mid-capitalization developed market equities, excluding the U.S. and Canada.
+### this etf represents a broad range of companies in Europe, Australia, Asia, and the Far East.
 
 ### XBB.TO: Shares Core Canadian Universe Bond Index ETF
 ### tracks the performance of the FTSE Canada Universe Bond Index, net of expenses.
