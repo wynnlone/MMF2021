@@ -24,6 +24,13 @@ RM Lab
 ### tracks the investment results of an index composed of Canadian equities.
 ### this eft represents large and mid-sized companies in Canada.
 
+### EFA: iShares MSCI EAFE ETF
+### tracks the investment results of an index composed of large- and mid-capitalization developed market equities, excluding the U.S. and Canada. 
+
+### VGK: Vanguard FTSE Europe Index Fund ETF Shares
+
+### IOO: iShares Global 100 ETF 
+
 #2. Governmet Bond
 ### SHY: iShares 1-3 Year Treasury Bond ETF
 ### tracks the investment results of an index composed of U.S. Treasury bonds with remaining maturities between one and three years.
@@ -42,6 +49,9 @@ RM Lab
 ### IVR: iShares U.S. Real Estate ETF
 ### track the investment results of an index composed of U.S. equities in the real estate sector.
 ### this eft represents U.S. real estate companies and REITs, which invest in real estate directly and trade like stocks.
+
+### DBC: Invesco DB Commodity Index Tracking Fund 
+###
 
 #CAD 
 
