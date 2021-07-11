@@ -4,9 +4,9 @@ RM Lab
 # Data:
 ## Market price data:
 
-## Benchmark
-## Barclay Fund of Funds Index
-## Since they are so varied, funds of funds can be hard to track as a group and to compare. However, an index does exist. The Barclay Fund of Funds Index, sponsored by Barclay-Hedge, a provider of data on alternative investments, is a measure of the average return of all FOFs that report into the company database; it includes some 500 to 650 funds. As of March 2019, 583 funds had an averaged return of 3.95% year-to-date. 
+## file name: Barclay.xlsx
+## Barclay Fund of Funds Index, used as Benchmark
+## Since they are so varied, funds of funds can be hard to track as a group and to compare. However, an index does exist. The Barclay Fund of Funds Index, sponsored by Barclay-Hedge, a provider of data on alternative investments, is a measure of the average return of all FOFs that report into the company database; it includes some 500 to 650 funds.
 
 
 ## yahoofinance:
