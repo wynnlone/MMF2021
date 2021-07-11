@@ -62,7 +62,7 @@ RM Lab
 ### tracks the investment results of an index composed of U.S. equities in the real estate sector.
 ### this eft represents U.S. real estate companies and REITs, which invest in real estate directly and trade like stocks.
 
-### DBC: Invesco DB Commodity Index Tracking Fund 
+### DBC: Invesco DB Commodity Index Tracking Fund (will not include)
 ### tracks changes, whether positive or negative, in the level of the DBIQ Optimum Yield Diversified Commodity Index Excess Return™ (DBIQ Opt Yield Diversified Comm Index ER or Index) plus the interest income from the Fund's holdings of primarily US Treasury securities and money market income less the Fund's expenses.
 ### this etf represents 14 of the most heavily traded and important physical commodities in the world.
 
