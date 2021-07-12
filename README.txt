@@ -43,6 +43,9 @@ RM Lab
 ### tracks the investment results of an index composed of 100 large-capitalization global equities.
 ### this etf represents a broad range of large international companies in developed and emerging markets.
 
+### LQD: iShares iBoxx $ Investment Grade Corporate Bond ETF (did not include)
+### tracks the investment results of an index composed of U.S. dollar-denominated, investment grade corporate bonds. 
+
 #2. Governmet Bond
 ### SHY: iShares 1-3 Year Treasury Bond ETF
 ### tracks the investment results of an index composed of U.S. Treasury bonds with remaining maturities between one and three years.
@@ -62,7 +65,7 @@ RM Lab
 ### tracks the investment results of an index composed of U.S. equities in the real estate sector.
 ### this eft represents U.S. real estate companies and REITs, which invest in real estate directly and trade like stocks.
 
-### DBC: Invesco DB Commodity Index Tracking Fund (will not include)
+### DBC: Invesco DB Commodity Index Tracking Fund (did not include)
 ### tracks changes, whether positive or negative, in the level of the DBIQ Optimum Yield Diversified Commodity Index Excess Return™ (DBIQ Opt Yield Diversified Comm Index ER or Index) plus the interest income from the Fund's holdings of primarily US Treasury securities and money market income less the Fund's expenses.
 ### this etf represents 14 of the most heavily traded and important physical commodities in the world.
 
