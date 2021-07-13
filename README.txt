@@ -160,7 +160,7 @@
 
 ## AW is selected. 
 ## include price and return information of portfolio.
-## some other info such as transaction record, fees, unit of shares holding histry also included.
+## some other info such as weight, transaction record, fees, unit of shares holding histry also included.
 
 
 # Folder: code ===================================
