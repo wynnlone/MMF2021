@@ -179,7 +179,7 @@
 ## Including historical scenarios and hypothetical scenarios.
 ## Historical scenarios: We select four different historical time series which contain growth scenarios and downturn scenarios, and then learn from the history.
 ## Hypothetical scenarios: We created three hypothetical scenarios - Base, Upside, and Downside. 
-## Base: Use the MarcoEconomic data on 2021-01-01 as input data to forecast the Macro data in the next few quarters, then utilize regression between historical Macro and factor data to get the forecasted Fator data and run regression between historical factor and asset data to get the forecasted asset returns and portfolio value.
+## Base: Use the MarcoEconomic data on 2021-01-01 as input data to forecast the Macro data in the next few quarters, then utilize regression between historical Macro and factor data to get the forecasted Fator data. Finally, run regression between historical factor and asset data to get the forecasted asset returns and portfolio value.
 ## Upside Case: Increase US GDP rate, Inflation keeps at 2%, increase market premium and then forecast.
 ## Downside Case: Decrease US GDP rate, increase US Unemployment rate, decrease USDCAD FX, and decrease market premium and then forecast.
         
