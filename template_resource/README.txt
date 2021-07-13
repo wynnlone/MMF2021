@@ -1,1 +1,1 @@
-This folder contains template code for references
+This folder contains template code for our own references
