@@ -175,11 +175,14 @@
 ## Process include calibration, asset allocation, rebalancing, fee calculation, performance time series and some risk metric calculation.
 ## takes input data and output performance data and report data
 
-## Risk Analysis - VaR - Draft
-## is the draft template for historical VaR and Stress VaR
-## will need to be modified and polished once the data files and allocation functions are done.
-
-
+## RiskLab_Scenarios:
+## Including historical scenarios and hypothetical scenarios.
+## Historical scenarios: We select four different historical time series which contain growth scenarios and downturn scenarios, and then learn from the history.
+## Hypothetical scenarios: We created three hypothetical scenarios - Base, Upside, and Downside. 
+        Base: Use the data on 2021-06-01 as input data to forecast the next 4 quarter (one year) asset fluctuation and portfolio value.
+        Upside: Increase US GDP rate, Inflation keeps at 2%, increase market premium based on the data on 2021-06-01 and then forecast the next 4 quarter (one           year) asset fluctuation and portfolio value.
+        Downside: Decrease US GDP rate, increase US Unemployment rate, decrease USDCAD FX, and decrease market premium and then forecast.
+        
 # Folder: analysis ====================================
 # contains all the analysis of report data
 
