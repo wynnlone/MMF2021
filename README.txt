@@ -158,7 +158,10 @@
 # Time 2016-2021
 # result from selected strategy
 
-## AW selected. 
+## AW is selected. 
+## include price and return information of portfolio.
+## some other info such as transaction record, fees, unit of shares holding histry also included.
+
 
 # Folder: code ===================================
 # Contains all the code
