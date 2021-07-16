@@ -87,7 +87,7 @@
 #### track the investment results of an index composed of large- and mid-capitalization developed market equities, excluding the U.S. and Canada.
 #### this etf represents a broad range of companies in Europe, Australia, Asia, and the Far East.
 
-#### XBB.TO: Shares Core Canadian Universe Bond Index ETF
+#### XBB.TO: iShares Core Canadian Universe Bond Index ETF
 #### tracks the performance of the FTSE Canada Universe Bond Index, net of expenses.
 #### this eft represents the Canadian investment grade bond market.
 
