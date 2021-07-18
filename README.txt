@@ -212,7 +212,7 @@ For a total of N assets, every asset will have the weight of w_i = 1/N, w_i>0 fo
 
 ## AW: All Weather
 Using minimum variance optimization:
-The objective is to minimize: w'*Q*w, such that w'*e = 1, and weights for every asset class are between 15% and 30%, w_i>0 for all i.
+The objective is to minimize: w'*Q*w, such that w'*e = 1, and weights for every asset class are between 15% and 30% to ensure diversification, w_i>0 for all i.
 Here Q is the covariance matrix.
 
 ## MV: Minimum Variance
