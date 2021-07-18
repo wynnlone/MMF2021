@@ -4,4 +4,4 @@ This code contains all the code.
 
 # optimize is the strategies (intergrated into main already)
 
-# RiskLab_Scenarios including historical and hypothetical scenarios. 
+# Scenarios_Run1 / Scenarios_Run2 including historical and hypothetical scenarios. 
