@@ -156,7 +156,7 @@
 
 # Folder: report_data ===================================================
 # Time 2016-2021
-# result from selected strategy
+# result from the selected strategy
 
 ## AW is selected. 
 ## include price and return information of portfolio.
@@ -172,8 +172,8 @@
 
 ## Main:
 ## is the main file for training, validation and testing.
-## Process include calibration, asset allocation, rebalancing, fee calculation, performance time series and some risk metric calculation.
-## takes input data and output performance data and report data
+## Process include calibration, asset allocation, rebalancing, fee calculation, performance time series and some preliminary risk metric calculation.
+## takes input data and output performance_data and report_data
 
 ## RiskLab_Scenarios:
 ## Including historical scenarios and hypothetical scenarios.
@@ -183,7 +183,7 @@
 ## Upside Case: Increase US GDP rate, Inflation keeps at 2%, increase market premium and then forecast.
 ## Downside Case: Decrease US GDP rate, increase US Unemployment rate, decrease USDCAD FX, and decrease market premium and then forecast.
         
-# Folder: analysis ====================================
+# Folder: Analysis ====================================
 # contains all the analysis of report data
 
 ## analysis_ecodata.xlsx analyzes the relationship between macroeconomic factors and Fama French factors.
