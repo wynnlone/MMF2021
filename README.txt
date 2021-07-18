@@ -208,29 +208,32 @@
 # Test result generated using different strategies
 
 ## EW: Equal Weighted
-For a total of N assets, every asset will have the weight of 1/N.
+For a total of N assets, every asset will have the weight of w_i = 1/N, w_i>0 for all i.
 
 ## AW: All Weather
 Using minimum variance optimization:
-The objective is to minimize: w'*Q*w, such that w'*e = 1, and weights for every asset class are between 15% and 30%.
+The objective is to minimize: w'*Q*w, such that w'*e = 1, and weights for every asset class are between 15% and 30%, w_i>0 for all i.
 Here Q is the covariance matrix.
 
 ## MV: Minimum Variance
 Using minimum variance optimization:
-The objective is to minimize: w'*Q*w, such that w'*e = 1
+The objective is to minimize: w'*Q*w, with regards to w, such that w'*e = 1, w_i>0 for all i.
 Here Q is the covariance matrix.
 
 ## MS: Maxium Sharpe Ratio: based on previous Sharpe ratio maximiztion weighting scheme during the calibraation period, assume market sability, invest accordingly in the next period.
+The objective is: Max (w'*mu)/(sqrt(w'*Q*w)), with regards to w, such that w'*e = 1, w_i>0 for all i.
 
 ## NR: Naive Risk Parity
-Every asset with standard deviation sigma_i will have a weight of (1/sigma_i)/(sum_i(1/sigma_i)),  where the denominator sums up all the (1/sigma_i) for all assets.
+Every asset with standard deviation sigma_i will have a weight of w_i = (1/sigma_i)/(sum_i(1/sigma_i)), where w_i>0 for all i,  and the denominator sums up all the (1/sigma_i) for all assets.
 
 ## RP: Risk Parity
 The concept was to minimize the risk contribution difference among all assets. 
-The original objective was to minimize 1/2*y'*Q*y - c sum^n_i=1 {ln(y_i)}. Here Q is the covariance matrix. And after taking the gradient, it was turned to be a bit simpler: 
-our new objective is now : Q*y - c*y^(-1) = 0, 
+The original objective was to minimize 1/2*y'*Q*y - c sum^n_i=1 {ln(y_i)}, with regard to y. 
+Here Q is the covariance matrix. 
+And after taking the gradient, it was turned to be a bit simpler: 
+Our new objective is now : Q*y - c*y^(-1) = 0, 
 where y^(-1) is the reciprocal of vector y, elementwise.
-After normalizing the y element, by taking x_i = y_i/sum_i(y_i), we have a weight x_i for asset i.
+After normalizing the result y's element, by taking w_i = y_i/sum_i(y_i), we have a weight w_i for asset i, where w_i>0 for all i.
 
 ## TF: Trend Following: using EW as base, tile more weight in rising etfs 
 ## TR: Trend Reversal: using EW as base, tile less weight in rising etfs
