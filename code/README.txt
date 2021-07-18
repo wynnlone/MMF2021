@@ -1,6 +1,6 @@
 This code contains all the code.
 
-# main is for testing running the portfolio
+# main is for running the portfolio
 
 # optimize is the strategies (intergrated into main already)
 
