@@ -57,8 +57,9 @@
 ### Scenario metrics (ref: Scenario_Data, code\RiskLab_Scenarios, Analysis\Hypothetical_Scenarios_Analysis)
 
 # 4. Model Risk assessment ========================================================
-# Allocation model assumes market stationarity, e.g. correlation between asset does not change signicicantly, otherwiese, the model breaks when the market behave very differently during the calibration period and on-ward period. A suggested solution will be to incorporate professional judgement or finding variables that have predictability power. (ref: code\optimize.ipynb, code\main.ipynb)
-# Risk model assumes the same, we do notice that's not the case as risk metric changes as time or rolling window changes. Same suggested solution. (ref: Analysis\VaR_analysis_run2.xlsx)
+## Allocation model assumes market stationarity, e.g. correlation between asset does not change signicicantly, otherwiese, the model breaks when the market behave very differently during the calibration period and on-ward period. A suggested solution will be to incorporate professional judgement or finding variables that have predictability power. (ref: code\optimize.ipynb, code\main.ipynb)
+## Risk model assumes the same, we do notice that's not the case as risk metric changes as time or rolling window changes. Same suggested solution. (ref: Analysis\VaR_analysis_run2.xlsx)
+## Regression models (OLS and VAR, etc) need improvement because the scores are quite low. More time (for better variable and model) is needed to improve.
 
 
 # Folder Directory #################################################################################################
