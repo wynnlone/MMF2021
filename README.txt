@@ -32,6 +32,7 @@
 
 ## Back-testing description and results
 ## All strategies are backtested and data are stored (ref: performance_data). All weather is selected based on Sharpe ratio (ref: Analysis\analysis_sharpe11-16.xlsx)
+## AW run1 is the first run based on original version of AW. AW run2 is after we change IYR to be no more than 15% of the USD account.
 
 # 2. Risk model =======================================================
 
@@ -44,14 +45,20 @@
 
 # 3. Portfolio analytics (light-cone analytics) methodologies ================================================
 
-## Exposures metrics (ref: report_data, Analysis)
+## Exposures metrics 
+## exposure in each asset, asset class, by absolute value, percentage of portfolio (ref: report_data, Analysis)
 
-## Performance and attribution metrics (ref: Analysis)
+## Performance and attribution metrics 
+## annual return, cumulative return since inception, sharpe ratio, return by asset, asset class (ref: Analysis)
 
 ## Risk and scenario metrics (ref: Analysis, code)
 
+### Risk metrics (ref: Analysis\VaR_analysis_run2.xlsx)
+### Scenario metrics (ref: Scenario_Data, code\RiskLab_Scenarios, Analysis\Hypothetical_Scenarios_Analysis)
+
 # 4. Model Risk assessment ========================================================
-(ref: Analysis, Code)
+# Allocation model assumes market stationarity, e.g. correlation between asset does not change signicicantly, otherwiese, the model breaks when the market behave very differently during the calibration period and on-ward period. A suggested solution will be to incorporate professional judgement or finding variables that have predictability power. (ref: code\optimize.ipynb, code\main.ipynb)
+# Risk model assumes the same, we do notice that's not the case as risk metric changes as time or rolling window changes. Same suggested solution. (ref: Analysis\VaR_analysis_run2.xlsx)
 
 
 # Folder Directory #################################################################################################
@@ -150,7 +157,7 @@
 #### 2. Governmet Bond
 
 #### XGB.TO: iShares Canadian Government Bond Index ETF
-#### tracks the performance of the FTSE Canada All Government Bond Index™, net of expenses.
+#### tracks the performance of the FTSE Canada All Government Bond Inde, net of expenses.
 #### this eft represents Canadian investment grade government bonds with maturities of at least 1 year.
 
 #### 3. Inflation Bond
@@ -171,8 +178,8 @@
 
 ### U.S.
 
-#### U.S. Fed funds
-#### U.S. CPI
+#### U.S. Fed fund rate
+#### U.S. CPI: measure of inflation
 #### U.S. GDP
 #### U.S. Unemployment rate
 
@@ -201,11 +208,11 @@
 ## EW: Equal Weighted
 ## AW: All Weather
 ## MV: Minimum Variance
-## MS: Maxium Sharpe Ratio
+## MS: Maxium Sharpe Ratio: based on previous Sharpe ratio maximiztion weighting scheme during the calibraation period, assume market sability, invest accordingly in the next period.
 ## NR: Naive Risk Parity
 ## RP: Risk Parity
-## TF: Trend Following
-## TR: Trend Reversal
+## TF: Trend Following: using EW as base, tile more weight in rising etfs 
+## TR: Trend Reversal: using EW as base, tile less weight in rising etfs
 
 ## each strategy inculdes two accounts, usd and cad. Also inculdes price time series data and return data.
 ## e.g: usd_AW_v.xlsx: the USD account position using All Weather. 
