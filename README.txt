@@ -2,7 +2,7 @@
 # RM Lab
 
 # System documentation #######################################################################################
-(ref: - please refer to the following folder or files for detail discription in the Folder directory section)
+(ref: - please refer to the following folder or files for detail description in the Folder directory section)
 
 # 0. Time point and time period break down ====================================
 
@@ -112,7 +112,7 @@
 #### LQD: iShares iBoxx $ Investment Grade Corporate Bond ETF (did not include)
 #### tracks the investment results of an index composed of U.S. dollar-denominated, investment grade corporate bonds. 
 
-#### 2. Governmet Bond
+#### 2. Government Bond
 #### SHY: iShares 1-3 Year Treasury Bond ETF
 #### tracks the investment results of an index composed of U.S. Treasury bonds with remaining maturities between one and three years.
 #### this eft represents short-term U.S. Treasury bonds.
@@ -156,7 +156,7 @@
 #### tracks the performance of the FTSE Canada Universe Bond Index, net of expenses.
 #### this eft represents the Canadian investment grade bond market.
 
-#### 2. Governmet Bond
+#### 2. Government Bond
 
 #### XGB.TO: iShares Canadian Government Bond Index ETF
 #### tracks the performance of the FTSE Canada All Government Bond Inde, net of expenses.
@@ -220,7 +220,7 @@ Using minimum variance optimization:
 The objective is to minimize: w'*Q*w, with regards to w, such that w'*e = 1, w_i>0 for all i.
 Here Q is the covariance matrix.
 
-## MS: Maxium Sharpe Ratio: based on previous Sharpe ratio maximiztion weighting scheme during the calibraation period, assume market sability, invest accordingly in the next period.
+## MS: Maximum Sharpe Ratio: based on previous Sharpe ratio maximization weighting scheme during the calibration period, assume market stability, invest accordingly in the next period.
 The objective is: Max (w'*mu)/(sqrt(w'*Q*w)), with regards to w, such that w'*e = 1, w_i>0 for all i.
 
 ## NR: Naive Risk Parity
@@ -238,7 +238,7 @@ After normalizing the result y's element, by taking w_i = y_i/sum_i(y_i), we hav
 ## TF: Trend Following: using EW as base, tile more weight in rising etfs 
 ## TR: Trend Reversal: using EW as base, tile less weight in rising etfs
 
-## each strategy inculdes two accounts, usd and cad. Also inculdes price time series data and return data.
+## each strategy includes two accounts, usd and cad. Also includes price time series data and return data.
 ## e.g: usd_AW_v.xlsx: the USD account position using All Weather. 
 ##      usd_AW_v_return.xlsx: return calculation based on usd_AW_v.xlsx
 
@@ -248,13 +248,13 @@ After normalizing the result y's element, by taking w_i = y_i/sum_i(y_i), we hav
 # result from the selected strategy
 
 ## AW is selected. 
-## include price and return information of portfolio. some other info such as weight, transaction record, fees, unit of shares holding histry also included.
+## include price and return information of portfolio. some other info such as weight, transaction record, fees, unit of shares holding history also included.
 ## e.g: df_R_comb_asset.xlsx: return of combined portfolio
-##      df_U_usd_AW_t.xlsx: number of uints in USD account
+##      df_U_usd_AW_t.xlsx: number of units in USD account
 ##      df_W_usd_AW_t.xlsx: weight in USD account
 ##      df_trans_fee_usd_AW_t.xlsx: transaction fee in USD account
 ##      df_trans_rec_usd_AW_t.xlsx: transaction record in USD account
-##      t1_weights.xlsx: final weight fo run 1
+##      t1_weights.xlsx: final weight for run 1
 
 
 # Folder: code ===================================
@@ -262,17 +262,17 @@ After normalizing the result y's element, by taking w_i = y_i/sum_i(y_i), we hav
 
 ## Optimize:
 ## Strategy builder. This is the process of taking processed data and use investment strategy to optimize the portfolio and achieve weight of each asset.
-## (has been intergrated with Main)
+## (has been integrated with Main)
 
 ## Main:
 ## is the main file for gathering market data, training, validation and testing. Process include data collection from yahoofinance, calibration, asset allocation, rebalancing, fee calculation, performance time series etc, and some preliminary risk metric calculation also added. It takes input_data and produce performance_data and report_data.
 
 ## Scenarios_Run1 and Scenarios_Run2:
-## Including historical scenarios and hypothetical scenarios. The differene between Run1 and Run2 is the weights of assets are different.
+## Including historical scenarios and hypothetical scenarios. The difference between Run1 and Run2 is the weights of assets are different.
 
 ### Historical scenarios: We select four different historical time series which contain growth scenarios and downturn scenarios, and then learn from the history.
 ### Hypothetical scenarios: We created three hypothetical scenarios - Base, Upside, and Downside. 
-#### Base: Use the MarcoEconomic data on 2021-01-01 as input data then apply in the VAR model to forecast the Macro data in the next few quarters, then utilize regression between historical Macro and factor data to get the forecasted Fator data. Finally, run regression between historical factor and asset data to get the forecasted asset returns and portfolio value.
+#### Base: Use the MarcoEconomic data on 2021-01-01 as input data then apply in the VAR model to forecast the Macro data in the next few quarters, then utilize regression between historical Macro and factor data to get the forecasted Factor data. Finally, run regression between historical factor and asset data to get the forecasted asset returns and portfolio value.
 #### Upside Case: Increase US GDP rate, Inflation keeps at 2%, increase market premium and then forecast.
 #### Downside Case: Decrease US GDP rate, increase US Unemployment rate, decrease USDCAD FX, and decrease market premium and then forecast.
 
@@ -286,7 +286,7 @@ After normalizing the result y's element, by taking w_i = y_i/sum_i(y_i), we hav
 ## 3factors.csv: historical data of 3 factors: Mkt-RF, SMB, HML
 ## df_cad_asset_r.csv: historical returns of Canadian asset
 ## df_us_asset_r.csv: historical returns of US asset
-Since we have to run regression between historical factor data and asset returns, then we must ensure the historical factor and asset returns have same time horizion. After we merged the the datasets of factor and asset returns, we will obtain the Asset_Quarter.csv and Factor_Quarter.csv which have same time range
+Since we have to run regression between historical factor data and asset returns, then we must ensure the historical factor and asset returns have same time horizon. After we merged the datasets of factor and asset returns, we will obtain the Asset_Quarter.csv and Factor_Quarter.csv which have same time range
 ## Asset_Quarter.csv: historical asset returns of Canadian and US asset after merged
 ## Factor_Quarter.csv: historical factor data after merged
 
@@ -300,18 +300,9 @@ Since we have to run regression between historical factor data and asset returns
 ## analysis_year.xlsx: the annually return of different asset classes.
 ## AW_position_weights.xlsx: the exposure history and weight by asset, asset class, currency for AW run1 and run2.
 ## VaR_analysis_run2.xlsx: detail calculation and analysis of various VaR metrics by asset, asset class, combined currency, for both AW runs. Dashboard and charts included.
-## Yearly returns by class.xlsx: yearly return by asset class comparied with portfolio and benchmark.
+## Yearly returns by class.xlsx: yearly return by asset class compared with portfolio and benchmark.
 ## assets_benchmark_returns.xlsx: assets, portfolio and benchmark returns since 2016-4-1.
-## Hypothetical_Scenarios_Analysis_Run2.xlsx: precicted portfolio value and asset returns of differnt scenarios in the next four quarters.
+## Hypothetical_Scenarios_Analysis_Run2.xlsx: predicted portfolio value and asset returns of different scenarios in the next four quarters.
 
 # Folder: template_reference ==========================
 # for our own reference
-
-
-#
-
-
-
-
-
-
